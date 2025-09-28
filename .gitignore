@@ -1,0 +1,22 @@
+# Binaries (engine generated)
+Binaries/*
+
+# Build folder
+Build/*
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# Intermediate (compiled data)
+Intermediate/*
+
+# Saved (autosaves, configs)
+Saved/*
+
+# Derived data cache
+DerivedDataCache/*
+
+# Built map data
+*_BuiltData.uasset
+
